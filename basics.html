@@ -6,16 +6,19 @@
     <title>Some basic form concepts</title>
   </head>
   <body>
-    <form method="POST" action="https://handlers.education.launchcode.org/request-parrot">
-      <label>First name
-        <input type="text" name="fname" />
-      </label>
-      
-      <label for="lname">Last name</label>
-      <input id="lname" type="text" name="lname" />
+    <h1>Form Basics</h1>
 
-      <!-- <input type="submit" value="Submit" /> -->
-      <button>Submit</button>
+    <form action="https://handlers.education.launchcode.org/request-parrot" method="POST">
+
+      <label>First Name
+        <input type="text" name="firstName" />
+      </label>
+
+      <label for="last-name">Last Name</label>
+      <input id="last-name" type="text" name="lastName" />
+      
+      <input type="submit" value="Submit" />
     </form>
+
   </body>
 </html>
